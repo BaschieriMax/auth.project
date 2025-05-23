@@ -41,13 +41,13 @@ export const sideBarSection: SingleSection[] = [
     icon: FaUsers,
   },
   {
+    title: "Admin",
+    href: "/private",
+    icon: RiAdminFill,
+  },
+  {
     title: "Settings",
     href: "/settings",
     icon: IoMdSettings,
-  },
-  {
-    title: "Admin",
-    href: "/admin",
-    icon: RiAdminFill,
   },
 ];

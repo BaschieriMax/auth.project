@@ -4,5 +4,5 @@ export type UsersProps = {
   full_name: string;
   address: string;
   phone: string;
-  created_at: Date;
+  created_at?: Date;
 };

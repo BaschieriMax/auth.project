@@ -1,9 +1,17 @@
 export default function Home() {
+  // const user = useAppSelector((state) => state.user.user);
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        Ciao
-      </main>
+    <div className="p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      {/* {user ? (
+        <>
+          <h1>Ciao, {user.full_name}!</h1>
+          <p>Email: {user.email}</p>
+          <p>Telefono: {user.phone}</p>
+        </>
+      ) : ( */}
+      <p>Benvenuto! Effettua il login per vedere le info.</p>
+      {/* )} */}
     </div>
   );
 }

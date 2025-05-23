@@ -33,5 +33,5 @@ export async function getUserByEmail(email: string) {
     .eq("email", email)
     .single();
 
-  return { user: users, error };
+  return { user: users as UsersProps, error };
 }
